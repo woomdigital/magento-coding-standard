@@ -668,4 +668,7 @@
     <rule ref="Magento2.Annotation.MethodArguments">
         <exclude name="Magento2.Annotation.MethodArguments.NoCommentBlock" />
     </rule>
+    <rule ref="Magento2.Annotation.MethodAnnotationStructure">
+        <exclude name="Magento2.Annotation.MethodAnnotationStructure.NoCommentBlock" />
+    </rule>
 </ruleset>
