@@ -220,6 +220,9 @@
     <!-- Disallows adding unused imports (usually left after code refactoring). -->
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <severity>10</severity>
+        <properties>
+            <property name="searchAnnotations" value="1"/>
+        </properties>
     </rule>
 
     <!-- Looks for use alias that is same as unqualified name. -->
