@@ -9,6 +9,7 @@
 
     <!-- Running some php-related rules on .xml files can have dire consequences -->
     <exclude-pattern>*\.xml$</exclude-pattern>
+    <exclude-pattern>*\.html$</exclude-pattern>
 
     <rule ref="Magento2">
         <!-- Methods shouldn't need annotations - names should be self-descriptive. Also bad for existing projects -->
